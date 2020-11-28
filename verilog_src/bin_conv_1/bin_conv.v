@@ -4201,7 +4201,7 @@ conv_word grp_conv_word_fu_4763(
     .ap_return_63(grp_conv_word_fu_4763_ap_return_63)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4214,7 +4214,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U243(
+bin_conv_1_mux_83dEe_U243(
     .din0(tmp_163_fu_9781_p1),
     .din1(tmp_163_fu_9781_p2),
     .din2(tmp_163_fu_9781_p3),
@@ -4227,7 +4227,7 @@ bin_conv_wrapper_dEe_U243(
     .dout(tmp_163_fu_9781_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4240,7 +4240,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U244(
+bin_conv_1_mux_83dEe_U244(
     .din0(tmp_164_fu_9802_p1),
     .din1(tmp_164_fu_9802_p2),
     .din2(tmp_164_fu_9802_p3),
@@ -4253,7 +4253,7 @@ bin_conv_wrapper_dEe_U244(
     .dout(tmp_164_fu_9802_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4266,7 +4266,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U245(
+bin_conv_1_mux_83dEe_U245(
     .din0(tmp_165_fu_9823_p1),
     .din1(tmp_165_fu_9823_p2),
     .din2(tmp_165_fu_9823_p3),
@@ -4279,7 +4279,7 @@ bin_conv_wrapper_dEe_U245(
     .dout(tmp_165_fu_9823_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4292,7 +4292,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U246(
+bin_conv_1_mux_83dEe_U246(
     .din0(tmp_166_fu_9844_p1),
     .din1(tmp_166_fu_9844_p2),
     .din2(tmp_166_fu_9844_p3),
@@ -4305,7 +4305,7 @@ bin_conv_wrapper_dEe_U246(
     .dout(tmp_166_fu_9844_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4318,7 +4318,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U247(
+bin_conv_1_mux_83dEe_U247(
     .din0(tmp_167_fu_9865_p1),
     .din1(tmp_167_fu_9865_p2),
     .din2(tmp_167_fu_9865_p3),
@@ -4331,7 +4331,7 @@ bin_conv_wrapper_dEe_U247(
     .dout(tmp_167_fu_9865_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4344,7 +4344,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U248(
+bin_conv_1_mux_83dEe_U248(
     .din0(tmp_168_fu_9886_p1),
     .din1(tmp_168_fu_9886_p2),
     .din2(tmp_168_fu_9886_p3),
@@ -4357,7 +4357,7 @@ bin_conv_wrapper_dEe_U248(
     .dout(tmp_168_fu_9886_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4370,7 +4370,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U249(
+bin_conv_1_mux_83dEe_U249(
     .din0(tmp_169_fu_9907_p1),
     .din1(tmp_169_fu_9907_p2),
     .din2(tmp_169_fu_9907_p3),
@@ -4383,7 +4383,7 @@ bin_conv_wrapper_dEe_U249(
     .dout(tmp_169_fu_9907_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4396,7 +4396,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U250(
+bin_conv_1_mux_83dEe_U250(
     .din0(tmp_170_fu_9928_p1),
     .din1(tmp_170_fu_9928_p2),
     .din2(tmp_170_fu_9928_p3),
@@ -4409,7 +4409,7 @@ bin_conv_wrapper_dEe_U250(
     .dout(tmp_170_fu_9928_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4422,7 +4422,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U251(
+bin_conv_1_mux_83dEe_U251(
     .din0(2'd0),
     .din1(tmp_171_fu_9949_p2),
     .din2(tmp_171_fu_9949_p3),
@@ -4435,7 +4435,7 @@ bin_conv_wrapper_dEe_U251(
     .dout(tmp_171_fu_9949_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4448,7 +4448,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U252(
+bin_conv_1_mux_83dEe_U252(
     .din0(word_buffer_0_1_1_1_fu_9650_p3),
     .din1(tmp_172_fu_9970_p2),
     .din2(tmp_172_fu_9970_p3),
@@ -4461,7 +4461,7 @@ bin_conv_wrapper_dEe_U252(
     .dout(tmp_172_fu_9970_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4474,7 +4474,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U253(
+bin_conv_1_mux_83dEe_U253(
     .din0(old_word_buffer_0_0_9_fu_1174),
     .din1(old_word_buffer_0_1_10_fu_1210),
     .din2(old_word_buffer_0_2_11_fu_1246),
@@ -4487,7 +4487,7 @@ bin_conv_wrapper_dEe_U253(
     .dout(tmp_173_fu_9997_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4500,7 +4500,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U254(
+bin_conv_1_mux_83dEe_U254(
     .din0(old_word_buffer_0_0_10_fu_1178),
     .din1(old_word_buffer_0_1_11_fu_1214),
     .din2(old_word_buffer_0_2_12_fu_1250),
@@ -4513,7 +4513,7 @@ bin_conv_wrapper_dEe_U254(
     .dout(tmp_174_fu_10017_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4526,7 +4526,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U255(
+bin_conv_1_mux_83dEe_U255(
     .din0(old_word_buffer_0_0_11_fu_1182),
     .din1(old_word_buffer_0_1_12_fu_1218),
     .din2(old_word_buffer_0_2_13_fu_1254),
@@ -4539,7 +4539,7 @@ bin_conv_wrapper_dEe_U255(
     .dout(tmp_175_fu_10043_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4552,7 +4552,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U256(
+bin_conv_1_mux_83dEe_U256(
     .din0(old_word_buffer_0_0_12_fu_1186),
     .din1(old_word_buffer_0_1_13_fu_1222),
     .din2(old_word_buffer_0_2_14_fu_1258),
@@ -4565,7 +4565,7 @@ bin_conv_wrapper_dEe_U256(
     .dout(tmp_176_fu_10063_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4578,7 +4578,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U257(
+bin_conv_1_mux_83dEe_U257(
     .din0(old_word_buffer_0_0_13_fu_1190),
     .din1(old_word_buffer_0_1_14_fu_1226),
     .din2(old_word_buffer_0_2_15_fu_1262),
@@ -4591,7 +4591,7 @@ bin_conv_wrapper_dEe_U257(
     .dout(tmp_177_fu_10089_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4604,7 +4604,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U258(
+bin_conv_1_mux_83dEe_U258(
     .din0(old_word_buffer_0_0_14_fu_1194),
     .din1(old_word_buffer_0_1_15_fu_1230),
     .din2(old_word_buffer_0_2_16_fu_1266),
@@ -4617,7 +4617,7 @@ bin_conv_wrapper_dEe_U258(
     .dout(tmp_178_fu_10109_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4630,7 +4630,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U259(
+bin_conv_1_mux_83dEe_U259(
     .din0(old_word_buffer_0_0_15_fu_1198),
     .din1(old_word_buffer_0_1_16_fu_1234),
     .din2(old_word_buffer_0_2_17_fu_1270),
@@ -4643,7 +4643,7 @@ bin_conv_wrapper_dEe_U259(
     .dout(tmp_180_fu_10135_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4656,7 +4656,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U260(
+bin_conv_1_mux_83dEe_U260(
     .din0(old_word_buffer_0_0_16_fu_1202),
     .din1(old_word_buffer_0_1_17_fu_1238),
     .din2(old_word_buffer_0_2_18_fu_1274),
@@ -4669,7 +4669,7 @@ bin_conv_wrapper_dEe_U260(
     .dout(tmp_213_fu_10155_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4682,7 +4682,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U261(
+bin_conv_1_mux_83dEe_U261(
     .din0(old_word_buffer_0_0_17_fu_1206),
     .din1(old_word_buffer_0_1_18_fu_1242),
     .din2(old_word_buffer_0_2_19_fu_1278),
@@ -4695,7 +4695,7 @@ bin_conv_wrapper_dEe_U261(
     .dout(tmp_246_fu_12642_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4708,7 +4708,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U262(
+bin_conv_1_mux_83dEe_U262(
     .din0(tmp_247_fu_13607_p1),
     .din1(tmp_247_fu_13607_p2),
     .din2(tmp_247_fu_13607_p3),
@@ -4721,7 +4721,7 @@ bin_conv_wrapper_dEe_U262(
     .dout(tmp_247_fu_13607_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4734,7 +4734,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U263(
+bin_conv_1_mux_83dEe_U263(
     .din0(tmp_248_fu_13627_p1),
     .din1(word_buffer_1_1_2_1_reg_27083),
     .din2(word_buffer_1_2_2_1_reg_27029),
@@ -4747,7 +4747,7 @@ bin_conv_wrapper_dEe_U263(
     .dout(tmp_248_fu_13627_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4760,7 +4760,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U264(
+bin_conv_1_mux_83dEe_U264(
     .din0(tmp_249_fu_13641_p1),
     .din1(word_buffer_1_1_3_1_reg_27074),
     .din2(word_buffer_1_2_3_1_reg_27020),
@@ -4773,7 +4773,7 @@ bin_conv_wrapper_dEe_U264(
     .dout(tmp_249_fu_13641_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4786,7 +4786,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U265(
+bin_conv_1_mux_83dEe_U265(
     .din0(tmp_250_fu_13655_p1),
     .din1(word_buffer_1_1_4_1_reg_27065),
     .din2(word_buffer_1_2_4_1_reg_27011),
@@ -4799,7 +4799,7 @@ bin_conv_wrapper_dEe_U265(
     .dout(tmp_250_fu_13655_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4812,7 +4812,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U266(
+bin_conv_1_mux_83dEe_U266(
     .din0(tmp_251_fu_13669_p1),
     .din1(word_buffer_1_1_5_1_reg_27056),
     .din2(word_buffer_1_2_5_1_reg_27002),
@@ -4825,7 +4825,7 @@ bin_conv_wrapper_dEe_U266(
     .dout(tmp_251_fu_13669_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4838,7 +4838,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U267(
+bin_conv_1_mux_83dEe_U267(
     .din0(tmp_252_fu_13683_p1),
     .din1(word_buffer_1_1_6_1_reg_27047),
     .din2(word_buffer_1_2_6_1_reg_26993),
@@ -4851,7 +4851,7 @@ bin_conv_wrapper_dEe_U267(
     .dout(tmp_252_fu_13683_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4864,7 +4864,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U268(
+bin_conv_1_mux_83dEe_U268(
     .din0(tmp_253_fu_13697_p1),
     .din1(word_buffer_1_1_7_1_reg_27038),
     .din2(word_buffer_1_2_7_1_reg_26984),
@@ -4877,7 +4877,7 @@ bin_conv_wrapper_dEe_U268(
     .dout(tmp_253_fu_13697_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4890,7 +4890,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U269(
+bin_conv_1_mux_83dEe_U269(
     .din0(tmp_254_fu_13711_p1),
     .din1(tmp_254_fu_13711_p2),
     .din2(tmp_254_fu_13711_p3),
@@ -4903,7 +4903,7 @@ bin_conv_wrapper_dEe_U269(
     .dout(tmp_254_fu_13711_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4916,7 +4916,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U270(
+bin_conv_1_mux_83dEe_U270(
     .din0(2'd0),
     .din1(tmp_255_fu_13731_p2),
     .din2(tmp_255_fu_13731_p3),
@@ -4929,7 +4929,7 @@ bin_conv_wrapper_dEe_U270(
     .dout(tmp_255_fu_13731_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4942,7 +4942,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U271(
+bin_conv_1_mux_83dEe_U271(
     .din0(word_buffer_1_1_1_1_fu_11402_p3),
     .din1(tmp_256_fu_13759_p2),
     .din2(tmp_256_fu_13759_p3),
@@ -4955,7 +4955,7 @@ bin_conv_wrapper_dEe_U271(
     .dout(tmp_256_fu_13759_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4968,7 +4968,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U272(
+bin_conv_1_mux_83dEe_U272(
     .din0(old_word_buffer_1_0_9_fu_1458),
     .din1(old_word_buffer_1_1_10_fu_1494),
     .din2(old_word_buffer_1_2_11_fu_1530),
@@ -4981,7 +4981,7 @@ bin_conv_wrapper_dEe_U272(
     .dout(tmp_257_fu_13830_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -4994,7 +4994,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U273(
+bin_conv_1_mux_83dEe_U273(
     .din0(old_word_buffer_1_0_10_fu_1462),
     .din1(old_word_buffer_1_1_11_fu_1498),
     .din2(old_word_buffer_1_2_12_fu_1534),
@@ -5007,7 +5007,7 @@ bin_conv_wrapper_dEe_U273(
     .dout(tmp_258_fu_13850_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -5020,7 +5020,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U274(
+bin_conv_1_mux_83dEe_U274(
     .din0(old_word_buffer_1_0_11_fu_1466),
     .din1(old_word_buffer_1_1_12_fu_1502),
     .din2(old_word_buffer_1_2_13_fu_1538),
@@ -5033,7 +5033,7 @@ bin_conv_wrapper_dEe_U274(
     .dout(tmp_259_fu_13912_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -5046,7 +5046,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U275(
+bin_conv_1_mux_83dEe_U275(
     .din0(old_word_buffer_1_0_12_fu_1470),
     .din1(old_word_buffer_1_1_13_fu_1506),
     .din2(old_word_buffer_1_2_14_fu_1542),
@@ -5059,7 +5059,7 @@ bin_conv_wrapper_dEe_U275(
     .dout(tmp_260_fu_13932_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -5072,7 +5072,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U276(
+bin_conv_1_mux_83dEe_U276(
     .din0(old_word_buffer_1_0_13_fu_1474),
     .din1(old_word_buffer_1_1_14_fu_1510),
     .din2(old_word_buffer_1_2_15_fu_1546),
@@ -5085,7 +5085,7 @@ bin_conv_wrapper_dEe_U276(
     .dout(tmp_261_fu_13994_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -5098,7 +5098,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U277(
+bin_conv_1_mux_83dEe_U277(
     .din0(old_word_buffer_1_0_14_fu_1478),
     .din1(old_word_buffer_1_1_15_fu_1514),
     .din2(old_word_buffer_1_2_16_fu_1550),
@@ -5111,7 +5111,7 @@ bin_conv_wrapper_dEe_U277(
     .dout(tmp_262_fu_14014_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -5124,7 +5124,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U278(
+bin_conv_1_mux_83dEe_U278(
     .din0(old_word_buffer_1_0_15_fu_1482),
     .din1(old_word_buffer_1_1_16_fu_1518),
     .din2(old_word_buffer_1_2_17_fu_1554),
@@ -5137,7 +5137,7 @@ bin_conv_wrapper_dEe_U278(
     .dout(tmp_263_fu_14076_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -5150,7 +5150,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U279(
+bin_conv_1_mux_83dEe_U279(
     .din0(old_word_buffer_1_0_16_fu_1486),
     .din1(old_word_buffer_1_1_17_fu_1522),
     .din2(old_word_buffer_1_2_18_fu_1558),
@@ -5163,7 +5163,7 @@ bin_conv_wrapper_dEe_U279(
     .dout(tmp_264_fu_14096_p10)
 );
 
-bin_conv_wrapper_dEe #(
+bin_conv_1_mux_83dEe #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -5176,7 +5176,7 @@ bin_conv_wrapper_dEe #(
     .din7_WIDTH( 2 ),
     .din8_WIDTH( 3 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_dEe_U280(
+bin_conv_1_mux_83dEe_U280(
     .din0(old_word_buffer_1_0_17_fu_1490),
     .din1(old_word_buffer_1_1_18_fu_1526),
     .din2(old_word_buffer_1_2_19_fu_1562),

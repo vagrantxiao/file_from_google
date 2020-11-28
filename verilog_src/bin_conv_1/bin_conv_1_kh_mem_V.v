@@ -6,11 +6,11 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_lbW_ram (addr0, ce0, d0, we0, q0,  clk);
+module bin_conv_1_kh_mem_V_ram (addr0, ce0, d0, we0, q0,  clk);
 
 parameter DWIDTH = 64;
-parameter AWIDTH = 10;
-parameter MEM_SIZE = 1024;
+parameter AWIDTH = 6;
+parameter MEM_SIZE = 64;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -21,9 +21,6 @@ input clk;
 
 (* ram_style = "block" *)reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
-initial begin
-    $readmemh("./bin_conv_wrapper_lbW_ram.dat", ram);
-end
 
 
 
@@ -46,7 +43,7 @@ endmodule
 
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_lbW(
+module bin_conv_1_kh_mem_V(
     reset,
     clk,
     address0,
@@ -56,8 +53,8 @@ module bin_conv_wrapper_lbW(
     q0);
 
 parameter DataWidth = 32'd64;
-parameter AddressRange = 32'd1024;
-parameter AddressWidth = 32'd10;
+parameter AddressRange = 32'd64;
+parameter AddressWidth = 32'd6;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;
@@ -68,7 +65,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-bin_conv_wrapper_lbW_ram bin_conv_wrapper_lbW_ram_U(
+bin_conv_1_kh_mem_V_ram bin_conv_1_kh_mem_V_ram_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

@@ -1,17 +1,17 @@
 
 `timescale 1 ns / 1 ps
 
-  module bin_conv_wrapper_eOg_DSP48_0(a, b, p);
-input [10 - 1 : 0] a;
+  module bin_conv_0_mul_mufYi_DSP48_1(a, b, p);
+input [15 - 1 : 0] a;
 input [5 - 1 : 0] b;
-output [15 - 1 : 0] p;
+output [16 - 1 : 0] p;
 
 assign p = $unsigned (a) * $unsigned (b);
 
 endmodule
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_eOg(
+module bin_conv_0_mul_mufYi(
     din0,
     din1,
     dout);
@@ -27,7 +27,7 @@ output[dout_WIDTH - 1:0] dout;
 
 
 
-bin_conv_wrapper_eOg_DSP48_0 bin_conv_wrapper_eOg_DSP48_0_U(
+bin_conv_0_mul_mufYi_DSP48_1 bin_conv_0_mul_mufYi_DSP48_1_U(
     .a( din0 ),
     .b( din1 ),
     .p( dout ));

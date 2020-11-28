@@ -8,7 +8,7 @@
 
 `timescale 1ns/1ps
 
-module bin_conv_wrapper_dEe #(
+module bin_conv_1_mux_83dEe #(
 parameter
     ID                = 0,
     NUM_STAGE         = 1,

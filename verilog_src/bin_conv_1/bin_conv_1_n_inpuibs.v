@@ -6,12 +6,12 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps
-(* rom_style = "distributed" *) module bin_conv_wrapper_eOg_rom (
+(* rom_style = "distributed" *) module bin_conv_1_n_inpuibs_rom (
 addr0, ce0, q0, clk);
 
-parameter DWIDTH = 1;
+parameter DWIDTH = 10;
 parameter AWIDTH = 3;
-parameter MEM_SIZE = 6;
+parameter MEM_SIZE = 7;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -21,7 +21,7 @@ input clk;
 (* ram_style = "distributed" *)reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
 initial begin
-    $readmemh("./bin_conv_wrapper_eOg_rom.dat", ram);
+    $readmemh("./bin_conv_1_n_inpuibs_rom.dat", ram);
 end
 
 
@@ -40,15 +40,15 @@ endmodule
 
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_eOg(
+module bin_conv_1_n_inpuibs(
     reset,
     clk,
     address0,
     ce0,
     q0);
 
-parameter DataWidth = 32'd1;
-parameter AddressRange = 32'd6;
+parameter DataWidth = 32'd10;
+parameter AddressRange = 32'd7;
 parameter AddressWidth = 32'd3;
 input reset;
 input clk;
@@ -58,7 +58,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-bin_conv_wrapper_eOg_rom bin_conv_wrapper_eOg_rom_U(
+bin_conv_1_n_inpuibs_rom bin_conv_1_n_inpuibs_rom_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

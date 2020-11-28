@@ -6,10 +6,10 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps
-(* rom_style = "distributed" *) module bin_conv_wrapper_hbi_rom (
+(* rom_style = "distributed" *) module bin_conv_1_o_indeeOg_rom (
 addr0, ce0, q0, clk);
 
-parameter DWIDTH = 1;
+parameter DWIDTH = 9;
 parameter AWIDTH = 3;
 parameter MEM_SIZE = 7;
 
@@ -21,7 +21,7 @@ input clk;
 (* ram_style = "distributed" *)reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
 initial begin
-    $readmemh("./bin_conv_wrapper_hbi_rom.dat", ram);
+    $readmemh("./bin_conv_1_o_indeeOg_rom.dat", ram);
 end
 
 
@@ -40,14 +40,14 @@ endmodule
 
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_hbi(
+module bin_conv_1_o_indeeOg(
     reset,
     clk,
     address0,
     ce0,
     q0);
 
-parameter DataWidth = 32'd1;
+parameter DataWidth = 32'd9;
 parameter AddressRange = 32'd7;
 parameter AddressWidth = 32'd3;
 input reset;
@@ -58,7 +58,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-bin_conv_wrapper_hbi_rom bin_conv_wrapper_hbi_rom_U(
+bin_conv_1_o_indeeOg_rom bin_conv_1_o_indeeOg_rom_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

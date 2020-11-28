@@ -6,7 +6,7 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps
-(* rom_style = "distributed" *) module bin_conv_wrapper_fYi_rom (
+(* rom_style = "distributed" *) module bin_conv_1_n_outpfYi_rom (
 addr0, ce0, q0, clk);
 
 parameter DWIDTH = 8;
@@ -21,7 +21,7 @@ input clk;
 (* ram_style = "distributed" *)reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
 initial begin
-    $readmemh("./bin_conv_wrapper_fYi_rom.dat", ram);
+    $readmemh("./bin_conv_1_n_outpfYi_rom.dat", ram);
 end
 
 
@@ -40,7 +40,7 @@ endmodule
 
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_fYi(
+module bin_conv_1_n_outpfYi(
     reset,
     clk,
     address0,
@@ -58,7 +58,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-bin_conv_wrapper_fYi_rom bin_conv_wrapper_fYi_rom_U(
+bin_conv_1_n_outpfYi_rom bin_conv_1_n_outpfYi_rom_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

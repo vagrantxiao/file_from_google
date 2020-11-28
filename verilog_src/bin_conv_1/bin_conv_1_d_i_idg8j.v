@@ -6,7 +6,7 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps
-(* rom_style = "distributed" *) module bin_conv_wrapper_g8j_rom (
+(* rom_style = "distributed" *) module bin_conv_1_d_i_idg8j_rom (
 addr0, ce0, q0, clk);
 
 parameter DWIDTH = 1;
@@ -21,7 +21,7 @@ input clk;
 (* ram_style = "distributed" *)reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
 initial begin
-    $readmemh("./bin_conv_wrapper_g8j_rom.dat", ram);
+    $readmemh("./bin_conv_1_d_i_idg8j_rom.dat", ram);
 end
 
 
@@ -40,7 +40,7 @@ endmodule
 
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_g8j(
+module bin_conv_1_d_i_idg8j(
     reset,
     clk,
     address0,
@@ -58,7 +58,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-bin_conv_wrapper_g8j_rom bin_conv_wrapper_g8j_rom_U(
+bin_conv_1_d_i_idg8j_rom bin_conv_1_d_i_idg8j_rom_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

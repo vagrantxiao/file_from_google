@@ -7,9 +7,9 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="bin_conv_wrapper_2,hls_ip_2018_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=4.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.451500,HLS_SYN_LAT=5284425,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=0,HLS_SYN_FF=3222,HLS_SYN_LUT=22360,HLS_VERSION=2018_2}" *)
+(* CORE_GENERATION_INFO="bin_conv_2,hls_ip_2018_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=4.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.451500,HLS_SYN_LAT=5284425,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=0,HLS_SYN_FF=3222,HLS_SYN_LUT=22360,HLS_VERSION=2018_2}" *)
 
-module bin_conv_wrapper_2 (
+module bin_conv_2 (
         ap_clk,
         ap_rst,
         ap_start,
@@ -290,7 +290,7 @@ initial begin
 #0 ap_reg_ioackin_Output_1_V_V_ap_ack = 1'b0;
 end
 
-bin_conv_wrapper_dEe #(
+bin_conv_2_o_indedEe #(
     .DataWidth( 9 ),
     .AddressRange( 6 ),
     .AddressWidth( 3 ))
@@ -302,7 +302,7 @@ o_index_list_U(
     .q0(o_index_list_q0)
 );
 
-bin_conv_wrapper_eOg #(
+bin_conv_2_d_o_ideOg #(
     .DataWidth( 1 ),
     .AddressRange( 6 ),
     .AddressWidth( 3 ))
@@ -314,7 +314,7 @@ d_o_idx_list_V_U(
     .q0(d_o_idx_list_V_q0)
 );
 
-bin_conv_wrapper_fYi #(
+bin_conv_2_n_inpufYi #(
     .DataWidth( 10 ),
     .AddressRange( 6 ),
     .AddressWidth( 3 ))
@@ -326,7 +326,7 @@ n_inputs_list_U(
     .q0(n_inputs_list_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_2_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -340,7 +340,7 @@ dmem_V_0_0_U(
     .q0(dmem_V_0_0_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_2_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -354,7 +354,7 @@ dmem_V_0_1_U(
     .q0(dmem_V_0_1_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_2_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -368,7 +368,7 @@ dmem_V_1_0_U(
     .q0(dmem_V_1_0_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_2_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -382,7 +382,7 @@ dmem_V_1_1_U(
     .q0(dmem_V_1_1_q0)
 );
 
-bin_conv_wrapper_kbM #(
+bin_conv_2_kh_mem_V #(
     .DataWidth( 64 ),
     .AddressRange( 64 ),
     .AddressWidth( 6 ))
@@ -1321,4 +1321,4 @@ always @ (posedge ap_clk) begin
     o_index_V_cast_reg_1095[9] <= 1'b0;
 end
 
-endmodule //bin_conv_wrapper_2
+endmodule //bin_conv_2

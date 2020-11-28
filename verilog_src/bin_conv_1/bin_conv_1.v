@@ -7,9 +7,9 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="bin_conv_wrapper_1,hls_ip_2018_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=4.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.749500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=0,HLS_SYN_FF=4363,HLS_SYN_LUT=23062,HLS_VERSION=2018_2}" *)
+(* CORE_GENERATION_INFO="bin_conv_1,hls_ip_2018_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=4.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.749500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=0,HLS_SYN_FF=4363,HLS_SYN_LUT=23062,HLS_VERSION=2018_2}" *)
 
-module bin_conv_wrapper_1 (
+module bin_conv_1 (
         ap_clk,
         ap_rst,
         ap_start,
@@ -306,7 +306,7 @@ initial begin
 #0 ap_reg_ioackin_Output_1_V_V_ap_ack = 1'b0;
 end
 
-bin_conv_wrapper_eOg #(
+bin_conv_1_o_indeeOg #(
     .DataWidth( 9 ),
     .AddressRange( 7 ),
     .AddressWidth( 3 ))
@@ -318,7 +318,7 @@ o_index_list_U(
     .q0(o_index_list_q0)
 );
 
-bin_conv_wrapper_fYi #(
+bin_conv_1_n_outpfYi #(
     .DataWidth( 8 ),
     .AddressRange( 7 ),
     .AddressWidth( 3 ))
@@ -330,7 +330,7 @@ n_outputs_list_U(
     .q0(n_outputs_list_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_1_d_i_idg8j #(
     .DataWidth( 1 ),
     .AddressRange( 7 ),
     .AddressWidth( 3 ))
@@ -342,7 +342,7 @@ d_i_idx_list_V_U(
     .q0(d_i_idx_list_V_q0)
 );
 
-bin_conv_wrapper_hbi #(
+bin_conv_1_d_o_idhbi #(
     .DataWidth( 1 ),
     .AddressRange( 7 ),
     .AddressWidth( 3 ))
@@ -354,7 +354,7 @@ d_o_idx_list_V_U(
     .q0(d_o_idx_list_V_q0)
 );
 
-bin_conv_wrapper_ibs #(
+bin_conv_1_n_inpuibs #(
     .DataWidth( 10 ),
     .AddressRange( 7 ),
     .AddressWidth( 3 ))
@@ -366,7 +366,7 @@ n_inputs_list_U(
     .q0(n_inputs_list_q0)
 );
 
-bin_conv_wrapper_jbC #(
+bin_conv_1_width_jbC #(
     .DataWidth( 1 ),
     .AddressRange( 7 ),
     .AddressWidth( 3 ))
@@ -378,7 +378,7 @@ width_mode_list_U(
     .q0(width_mode_list_q0)
 );
 
-bin_conv_wrapper_kbM #(
+bin_conv_1_norm_mkbM #(
     .DataWidth( 2 ),
     .AddressRange( 7 ),
     .AddressWidth( 3 ))
@@ -390,7 +390,7 @@ norm_mode_list_U(
     .q0(norm_mode_list_q0)
 );
 
-bin_conv_wrapper_lbW #(
+bin_conv_1_dmem_VlbW #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -404,7 +404,7 @@ dmem_V_0_0_U(
     .q0(dmem_V_0_0_q0)
 );
 
-bin_conv_wrapper_lbW #(
+bin_conv_1_dmem_VlbW #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -418,7 +418,7 @@ dmem_V_0_1_U(
     .q0(dmem_V_0_1_q0)
 );
 
-bin_conv_wrapper_lbW #(
+bin_conv_1_dmem_VlbW #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -432,7 +432,7 @@ dmem_V_1_0_U(
     .q0(dmem_V_1_0_q0)
 );
 
-bin_conv_wrapper_lbW #(
+bin_conv_1_dmem_VlbW #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -446,7 +446,7 @@ dmem_V_1_1_U(
     .q0(dmem_V_1_1_q0)
 );
 
-bin_conv_wrapper_pcA #(
+bin_conv_1_kh_mem_V #(
     .DataWidth( 64 ),
     .AddressRange( 64 ),
     .AddressWidth( 6 ))
@@ -1435,4 +1435,4 @@ always @ (posedge ap_clk) begin
     o_index_V_cast_reg_1165[9] <= 1'b0;
 end
 
-endmodule //bin_conv_wrapper_1
+endmodule //bin_conv_1

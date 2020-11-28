@@ -7,9 +7,9 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="bin_conv_wrapper_0,hls_ip_2018_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=4.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.749500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=2,HLS_SYN_FF=6348,HLS_SYN_LUT=35634,HLS_VERSION=2018_2}" *)
+(* CORE_GENERATION_INFO="bin_conv_0,hls_ip_2018_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=1,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=4.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=3.749500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=2,HLS_SYN_FF=6348,HLS_SYN_LUT=35634,HLS_VERSION=2018_2}" *)
 
-module bin_conv_wrapper_0 (
+module bin_conv_0 (
         ap_clk,
         ap_rst,
         ap_start,
@@ -264,7 +264,7 @@ initial begin
 #0 ap_reg_ioackin_Output_1_V_V_ap_ack = 1'b0;
 end
 
-bin_conv_wrapper_g8j #(
+bin_conv_0_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -278,7 +278,7 @@ dmem_V_0_0_U(
     .q0(dmem_V_0_0_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_0_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -292,7 +292,7 @@ dmem_V_0_1_U(
     .q0(dmem_V_0_1_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_0_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -306,7 +306,7 @@ dmem_V_1_0_U(
     .q0(dmem_V_1_0_q0)
 );
 
-bin_conv_wrapper_g8j #(
+bin_conv_0_dmem_Vg8j #(
     .DataWidth( 64 ),
     .AddressRange( 1024 ),
     .AddressWidth( 10 ))
@@ -320,7 +320,7 @@ dmem_V_1_1_U(
     .q0(dmem_V_1_1_q0)
 );
 
-bin_conv_wrapper_kbM #(
+bin_conv_0_kh_mem_V #(
     .DataWidth( 64 ),
     .AddressRange( 64 ),
     .AddressWidth( 6 ))
@@ -374,7 +374,7 @@ bin_conv grp_bin_conv_fu_385(
     .norm_mode_V(tmp_13_reg_1092)
 );
 
-bin_conv_wrapper_lbW #(
+bin_conv_0_mux_32kbM #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 16 ),
@@ -382,7 +382,7 @@ bin_conv_wrapper_lbW #(
     .din2_WIDTH( 16 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 16 ))
-bin_conv_wrapper_lbW_U303(
+bin_conv_0_mux_32kbM_U303(
     .din0(16'd128),
     .din1(16'd256),
     .din2(16'd128),
@@ -390,7 +390,7 @@ bin_conv_wrapper_lbW_U303(
     .dout(n_outputs_V_fu_422_p5)
 );
 
-bin_conv_wrapper_mb6 #(
+bin_conv_0_mux_32lbW #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 1 ),
@@ -398,7 +398,7 @@ bin_conv_wrapper_mb6 #(
     .din2_WIDTH( 1 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 1 ))
-bin_conv_wrapper_mb6_U304(
+bin_conv_0_mux_32lbW_U304(
     .din0(1'd0),
     .din1(1'd1),
     .din2(1'd0),
@@ -406,7 +406,7 @@ bin_conv_wrapper_mb6_U304(
     .dout(tmp_3_fu_671_p5)
 );
 
-bin_conv_wrapper_mb6 #(
+bin_conv_0_mux_32lbW #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 1 ),
@@ -414,7 +414,7 @@ bin_conv_wrapper_mb6 #(
     .din2_WIDTH( 1 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 1 ))
-bin_conv_wrapper_mb6_U305(
+bin_conv_0_mux_32lbW_U305(
     .din0(1'd1),
     .din1(1'd0),
     .din2(1'd1),
@@ -422,7 +422,7 @@ bin_conv_wrapper_mb6_U305(
     .dout(tmp_7_fu_683_p5)
 );
 
-bin_conv_wrapper_lbW #(
+bin_conv_0_mux_32kbM #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 16 ),
@@ -430,7 +430,7 @@ bin_conv_wrapper_lbW #(
     .din2_WIDTH( 16 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 16 ))
-bin_conv_wrapper_lbW_U306(
+bin_conv_0_mux_32kbM_U306(
     .din0(16'd128),
     .din1(16'd128),
     .din2(16'd256),
@@ -438,7 +438,7 @@ bin_conv_wrapper_lbW_U306(
     .dout(tmp_9_fu_695_p5)
 );
 
-bin_conv_wrapper_ncg #(
+bin_conv_0_mux_32mb6 #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -446,7 +446,7 @@ bin_conv_wrapper_ncg #(
     .din2_WIDTH( 2 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_ncg_U307(
+bin_conv_0_mux_32mb6_U307(
     .din0(2'd2),
     .din1(2'd1),
     .din2(2'd1),
@@ -454,7 +454,7 @@ bin_conv_wrapper_ncg_U307(
     .dout(tmp_12_fu_707_p5)
 );
 
-bin_conv_wrapper_ncg #(
+bin_conv_0_mux_32mb6 #(
     .ID( 1 ),
     .NUM_STAGE( 1 ),
     .din0_WIDTH( 2 ),
@@ -462,7 +462,7 @@ bin_conv_wrapper_ncg #(
     .din2_WIDTH( 2 ),
     .din3_WIDTH( 2 ),
     .dout_WIDTH( 2 ))
-bin_conv_wrapper_ncg_U308(
+bin_conv_0_mux_32mb6_U308(
     .din0(2'd2),
     .din1(2'd1),
     .din2(2'd2),
@@ -1233,4 +1233,4 @@ assign tmp_i_fu_533_p1 = r_V_fu_523_p4;
 
 assign tmp_s_fu_434_p2 = ((kh_i_reg_263 == 7'd64) ? 1'b1 : 1'b0);
 
-endmodule //bin_conv_wrapper_0
+endmodule //bin_conv_0

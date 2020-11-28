@@ -6,12 +6,12 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps
-(* rom_style = "distributed" *) module bin_conv_wrapper_dEe_rom (
+(* rom_style = "distributed" *) module bin_conv_1_norm_mkbM_rom (
 addr0, ce0, q0, clk);
 
-parameter DWIDTH = 9;
+parameter DWIDTH = 2;
 parameter AWIDTH = 3;
-parameter MEM_SIZE = 6;
+parameter MEM_SIZE = 7;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -21,7 +21,7 @@ input clk;
 (* ram_style = "distributed" *)reg [DWIDTH-1:0] ram[0:MEM_SIZE-1];
 
 initial begin
-    $readmemh("./bin_conv_wrapper_dEe_rom.dat", ram);
+    $readmemh("./bin_conv_1_norm_mkbM_rom.dat", ram);
 end
 
 
@@ -40,15 +40,15 @@ endmodule
 
 
 `timescale 1 ns / 1 ps
-module bin_conv_wrapper_dEe(
+module bin_conv_1_norm_mkbM(
     reset,
     clk,
     address0,
     ce0,
     q0);
 
-parameter DataWidth = 32'd9;
-parameter AddressRange = 32'd6;
+parameter DataWidth = 32'd2;
+parameter AddressRange = 32'd7;
 parameter AddressWidth = 32'd3;
 input reset;
 input clk;
@@ -58,7 +58,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-bin_conv_wrapper_dEe_rom bin_conv_wrapper_dEe_rom_U(
+bin_conv_1_norm_mkbM_rom bin_conv_1_norm_mkbM_rom_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

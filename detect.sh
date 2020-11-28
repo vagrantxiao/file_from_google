@@ -2,9 +2,9 @@
 
 rm ./verilog_src/* -rf
 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_wrapper_0_prj/bin_conv_wrapper_0/syn/verilog ./verilog_src/bin_conv_wrapper_0 -rf 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_wrapper_1_prj/bin_conv_wrapper_1/syn/verilog ./verilog_src/bin_conv_wrapper_1 -rf 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_wrapper_2_prj/bin_conv_wrapper_2/syn/verilog ./verilog_src/bin_conv_wrapper_2 -rf 
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_0_prj/bin_conv_0/syn/verilog ./verilog_src/bin_conv_0 -rf 
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_1_prj/bin_conv_1/syn/verilog ./verilog_src/bin_conv_1 -rf 
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_2_prj/bin_conv_2/syn/verilog ./verilog_src/bin_conv_2 -rf 
 
 cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_gen0_prj/bin_conv_gen0/syn/verilog ./verilog_src/bin_conv_gen0 -rf 
 cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_gen1_prj/bin_conv_gen1/syn/verilog ./verilog_src/bin_conv_gen1 -rf 

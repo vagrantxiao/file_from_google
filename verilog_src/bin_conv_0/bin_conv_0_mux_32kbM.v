@@ -8,7 +8,7 @@
 
 `timescale 1ns/1ps
 
-module bin_conv_wrapper_ncg #(
+module bin_conv_0_mux_32kbM #(
 parameter
     ID                = 0,
     NUM_STAGE         = 1,
@@ -18,19 +18,19 @@ parameter
     din3_WIDTH         = 32,
     dout_WIDTH            = 32
 )(
-    input  [1 : 0]     din0,
-    input  [1 : 0]     din1,
-    input  [1 : 0]     din2,
+    input  [15 : 0]     din0,
+    input  [15 : 0]     din1,
+    input  [15 : 0]     din2,
     input  [1 : 0]    din3,
-    output [1 : 0]   dout);
+    output [15 : 0]   dout);
 
 // puts internal signals
 wire [1 : 0]     sel;
 // level 1 signals
-wire [1 : 0]         mux_1_0;
-wire [1 : 0]         mux_1_1;
+wire [15 : 0]         mux_1_0;
+wire [15 : 0]         mux_1_1;
 // level 2 signals
-wire [1 : 0]         mux_2_0;
+wire [15 : 0]         mux_2_0;
 
 assign sel = din3;
 
