@@ -1,0 +1,11 @@
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source dummy.tcl
+# set_param general.maxThreads  8
+ERROR: [Coretcl 2-88] No projects are currently open.
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 28 05:27:22 2020...
+srun: error: prflow-compute-0-4: task 0: Exited with exit code 1
