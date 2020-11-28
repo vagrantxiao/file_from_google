@@ -3,8 +3,6 @@
 #include "Typedefs.h"
 #include "data_gen_num.h"
 #include "fp_conv.h"
-#include "bin_conv.h"
-#include "bin_dense.h"
 #include "bc_gen_0.h"
 #include "bc_gen_1.h"
 #include "bc_gen_2.h"
@@ -20,12 +18,17 @@
 #include "bd_gen_8.h"
 #include "bd_gen_9.h"
 #include "bd_gen_10.h"
+#include "bin_conv_wrapper.h"
+#include "bin_dense_wrapper.h"
 #include "data_in_gen_0.h"
 #include "data_in_gen_1.h"
 #include "data_in_gen_2.h"
 #include "data_in_gen_3.h"
 #include "data_in_gen_4.h"
-
+#include "bin_conv_gen.h"
+#include "bin_conv_gen0.h"
+#include "bin_conv_gen1.h"
+#include "bin_conv_gen2.h"
 
 int main(int argc, char** argv) {
   hls::stream< Word > data_gen_out0("data_gen_out0");
@@ -51,6 +54,9 @@ int main(int argc, char** argv) {
 	hls::stream< Word > bin_conv_in1("bin_conv_in1");
 	hls::stream< Word > bin_conv_in2("bin_conv_in2");
 	hls::stream< Word > bin_conv_out1("bin_conv_out1");
+	hls::stream< Word > bin_conv0_out1("bin_conv0_out1");
+	hls::stream< Word > bin_conv1_out1("bin_conv1_out1");
+	hls::stream< Word > bin_conv2_out1("bin_conv2_out1");
 	hls::stream< Word > bin_dense_in1("bin_dense_in1");
 	hls::stream< Word > bin_dense_in2("bin_dense_in2");
 	hls::stream< DMA_Word > bin_dense_out1("bin_dense_out1");
@@ -70,6 +76,10 @@ int main(int argc, char** argv) {
 	hls::stream< Word > bin_dense_gen_out9("bin_dense_gen_out9");
 	hls::stream< Word > bin_dense_gen_out10("bin_dense_gen_out10");
 
+	hls::stream< Word > bin_conv_gen0_out1("bin_conv_gen0_out1");
+	hls::stream< Word > bin_conv_gen1_out1("bin_conv_gen1_out1");
+	hls::stream< Word > bin_conv_gen2_out1("bin_conv_gen2_out1");
+
 	Word dmem_o[2*2*64];
 
 	data_in_gen_0(data_gen_out0);
@@ -86,10 +96,16 @@ int main(int argc, char** argv) {
 	for(i=0; i<N_IMG; i++)
 	{
 		printf("We are processing %d images\n", i);
-		bc_gen_0(bin_conv_gen_out0);
-		bc_gen_1(bin_conv_gen_out0, bin_conv_gen_out1);
-		bc_gen_2(bin_conv_gen_out1, bin_conv_gen_out2);
-		bc_gen_3(bin_conv_gen_out2, bin_conv_gen_out3);
+
+		//bc_gen_0(bin_conv_gen_out0);
+		//bc_gen_1(bin_conv_gen_out0, bin_conv_gen_out1);
+		//bc_gen_2(bin_conv_gen_out1, bin_conv_gen_out2);
+		//bc_gen_3(bin_conv_gen_out2, bin_conv_gen_out3);
+		bin_conv_gen0(bin_conv_gen0_out1);
+
+		bin_conv_gen1(bin_conv_gen1_out1);
+
+		bin_conv_gen2(bin_conv_gen2_out1);
 
 		bd_gen_0(bin_dense_gen_out0);
 		bd_gen_1(bin_dense_gen_out0, bin_dense_gen_out1);
@@ -108,15 +124,28 @@ int main(int argc, char** argv) {
 				fp_conv_out1
 			    );
 
-		for(j=0; j<16; j++){
-			bin_conv_wrapper(bin_conv_gen_out3,
+		for(j=0; j<3; j++){
+			//printf("bin_conv_wrapper_0=%d\n", j);
+			bin_conv_wrapper_0(bin_conv_gen0_out1,
 					 fp_conv_out1,
-					 bin_conv_out1);
+					 bin_conv0_out1);
+		}
+
+		for(j=0; j<7; j++){
+			bin_conv_wrapper_1(bin_conv_gen1_out1,
+					bin_conv0_out1,
+					 bin_conv1_out1);
+		}
+
+		for(j=0; j<6; j++){
+			bin_conv_wrapper_2(bin_conv_gen2_out1,
+					bin_conv1_out1,
+					 bin_conv2_out1);
 		}
 
 		for(j=0; j<37; j++){
 			bin_dense_wrapper(bin_dense_gen_out10,
-					  bin_conv_out1,
+					  bin_conv2_out1,
 					  bin_dense_out1);
 		}
 
