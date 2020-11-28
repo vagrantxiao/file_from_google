@@ -1,11 +1,17 @@
 #!/bin/bash
 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_wrapper_prj/bin_conv_wrapper/syn/verilog ./verilog_src/bin_conv_wrapper -rf 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bc_gen_0_prj/bc_gen_0/syn/verilog ./verilog_src/bc_gen_0 -rf 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bc_gen_1_prj/bc_gen_1/syn/verilog ./verilog_src/bc_gen_1 -rf 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bc_gen_2_prj/bc_gen_2/syn/verilog ./verilog_src/bc_gen_2 -rf 
-cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bc_gen_3_prj/bc_gen_3/syn/verilog ./verilog_src/bc_gen_3 -rf 
+rm ./verilog_src/* -rf
+
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_wrapper_0_prj/bin_conv_wrapper_0/syn/verilog ./verilog_src/bin_conv_wrapper_0 -rf 
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_wrapper_1_prj/bin_conv_wrapper_1/syn/verilog ./verilog_src/bin_conv_wrapper_1 -rf 
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_wrapper_2_prj/bin_conv_wrapper_2/syn/verilog ./verilog_src/bin_conv_wrapper_2 -rf 
+
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_gen0_prj/bin_conv_gen0/syn/verilog ./verilog_src/bin_conv_gen0 -rf 
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_gen1_prj/bin_conv_gen1/syn/verilog ./verilog_src/bin_conv_gen1 -rf 
+cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_conv_gen2_prj/bin_conv_gen2/syn/verilog ./verilog_src/bin_conv_gen2 -rf 
+
 cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bin_dense_wrapper_prj/bin_dense_wrapper/syn/verilog ./verilog_src/bin_dense_wrapper -rf 
+
 cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bd_gen_0_prj/bd_gen_0/syn/verilog ./verilog_src/bd_gen_0 -rf 
 cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bd_gen_10_prj/bd_gen_10/syn/verilog ./verilog_src/bd_gen_10 -rf 
 cp ../MeshINT/pr_flow_wide_width/workspace/F002_hls_bnn2/bd_gen_1_prj/bd_gen_1/syn/verilog ./verilog_src/bd_gen_1 -rf 
