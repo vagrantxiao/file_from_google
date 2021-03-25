@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Mar 25 16:53:21 2021
+# Process ID: 7449
+# Current directory: /home/ylxiao/ws_182/dirc_fccm2021/workspace/F003_syn_optical_flow_origin/unpack
+# Command line: vivado -mode batch -source syn_page.tcl
+# Log file: /home/ylxiao/ws_182/dirc_fccm2021/workspace/F003_syn_optical_flow_origin/unpack/vivado.log
+# Journal file: /home/ylxiao/ws_182/dirc_fccm2021/workspace/F003_syn_optical_flow_origin/unpack/vivado.jou
+#-----------------------------------------------------------
+source syn_page.tcl
